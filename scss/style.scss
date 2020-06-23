@@ -60,7 +60,7 @@
                 transition: all 0.2s;
                 margin-left: 6px;
                 &:hover {
-                    box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+                    transform: scale(1.2);
                 }
                 .header__linkspan {
                     flex: 1 1 auto;
@@ -473,21 +473,27 @@
                     flex: 1 1 auto;
 
                     height: 45px;
-                    opacity: 0.2;
+                    // opacity: 0.2;
                     background-color: #000000;
                     border: 1px solid #fff7f4;
                     border-radius: 22px;
 
+                    opacity: 0.6;
+                    font-family: Poppins;
+                    font-size: 14px;
+                    line-height: 40px;
+                    font-weight: 500;
+                    text-transform: uppercase;
+                    letter-spacing: 0.2em;
+                    color: #ffffff;
+                    padding-left: 30px;
+
+                    &:focus {
+                        box-shadow: 0 0 6px white;
+                    }
+
                     &::placeholder {
-                        opacity: 0.6;
-                        font-family: Poppins;
-                        font-size: 14px;
-                        line-height: 40px;
-                        font-weight: 500;
-                        text-transform: uppercase;
-                        letter-spacing: 0.2em;
-                        color: #ffffff;
-                        padding-left: 30px;
+                        opacity: 0.3;
                     }
                 }
                 .subscribe__name {

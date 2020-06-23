@@ -192,8 +192,8 @@ h6 {
 }
 
 .wrapper .header .header__nav .header__link:hover {
-  -webkit-box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
-          box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
 }
 
 .wrapper .header .header__nav .header__link .header__linkspan {
@@ -613,58 +613,39 @@ h6 {
       -ms-flex: 1 1 auto;
           flex: 1 1 auto;
   height: 45px;
-  opacity: 0.2;
   background-color: #000000;
   border: 1px solid #fff7f4;
   border-radius: 22px;
+  opacity: 0.6;
+  font-family: Poppins;
+  font-size: 14px;
+  line-height: 40px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: #ffffff;
+  padding-left: 30px;
+}
+
+.subscribe .subscribe__body .subscribe__form .subscribe__input-row .subscribe-text-input:focus {
+  -webkit-box-shadow: 0 0 6px white;
+          box-shadow: 0 0 6px white;
 }
 
 .subscribe .subscribe__body .subscribe__form .subscribe__input-row .subscribe-text-input::-webkit-input-placeholder {
-  opacity: 0.6;
-  font-family: Poppins;
-  font-size: 14px;
-  line-height: 40px;
-  font-weight: 500;
-  text-transform: uppercase;
-  letter-spacing: 0.2em;
-  color: #ffffff;
-  padding-left: 30px;
+  opacity: 0.3;
 }
 
 .subscribe .subscribe__body .subscribe__form .subscribe__input-row .subscribe-text-input:-ms-input-placeholder {
-  opacity: 0.6;
-  font-family: Poppins;
-  font-size: 14px;
-  line-height: 40px;
-  font-weight: 500;
-  text-transform: uppercase;
-  letter-spacing: 0.2em;
-  color: #ffffff;
-  padding-left: 30px;
+  opacity: 0.3;
 }
 
 .subscribe .subscribe__body .subscribe__form .subscribe__input-row .subscribe-text-input::-ms-input-placeholder {
-  opacity: 0.6;
-  font-family: Poppins;
-  font-size: 14px;
-  line-height: 40px;
-  font-weight: 500;
-  text-transform: uppercase;
-  letter-spacing: 0.2em;
-  color: #ffffff;
-  padding-left: 30px;
+  opacity: 0.3;
 }
 
 .subscribe .subscribe__body .subscribe__form .subscribe__input-row .subscribe-text-input::placeholder {
-  opacity: 0.6;
-  font-family: Poppins;
-  font-size: 14px;
-  line-height: 40px;
-  font-weight: 500;
-  text-transform: uppercase;
-  letter-spacing: 0.2em;
-  color: #ffffff;
-  padding-left: 30px;
+  opacity: 0.3;
 }
 
 .subscribe .subscribe__body .subscribe__form .subscribe__input-row .subscribe__name {
